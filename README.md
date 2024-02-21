@@ -27,7 +27,7 @@ The objective of this project is to establish a comprehensive data pipeline span
 
 ## Notebooks
 
-* AWS Architecture - discusses each step in the data pipeline from the collection XML files from the API, transforming the data using AWS Glue and AWS Lambda, storing the data in the data lake.
+* AWS Architecture - discusses each step in the data pipeline from the collection of XML files from the API, transforming the data using AWS Glue and AWS Lambda, storing the data in the data lake.
 * BGG Exploratory Data Analysis - contains a comprehensive analysis of features employing data wrangling up to multivariate analysis to develop insights with the collected data.
 * Content-Based Recommender Model - the notebook covers the step-by-step process involve in finding game recommendations using IDF of mechanics and categories.
 
