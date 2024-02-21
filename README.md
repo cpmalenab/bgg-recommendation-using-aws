@@ -20,16 +20,16 @@ The objective of this project is to establish a comprehensive data pipeline span
     * Services - S3, Glue, Lambda, IAM, CloudWatch, Athena, SNS 
     * SDK - boto3, awswrangler
 * Python Libraries
-    * Data analysis - pandas, numpy, seaborn, matplotlib
+    * Data analysis - pandas, numpy, scipy, statsmodel, seaborn, matplotlib
     * Webscraping - selenium, beautifulsoup
 * Visualization
     * [Tableau](https://public.tableau.com/app/profile/cesar.malenab/viz/BoardGameGeek_2/Dashboard1)
 
 ## Notebooks
 
-* AWS Architecture - discusses each step in the data pipeline from the collection of XML files from the API, transforming the data using AWS Glue and AWS Lambda, and data partitioning in the S3 buckets.
-* BGG Exploratory Data Analysis - contains a comprehensive analysis of features employing data wrangling up to multivariate analysis to develop insights with the collected data.
-* Content-Based Recommender Model - the notebook covers the step-by-step process involved in finding game recommendations using IDF of mechanics and categories.
+* [AWS Architecture](https://nbviewer.org/github/cpmalenab/bgg-recommendation-using-aws/blob/master/notebooks/BGG%20Data%20Pipeline.ipynb) - discusses each step in the data pipeline from the collection of XML files from the API, transforming the data using AWS Glue and AWS Lambda, and data partitioning in the S3 buckets.
+* [BGG Exploratory Data Analysis](https://nbviewer.org/github/cpmalenab/bgg-recommendation-using-aws/blob/master/notebooks/BGG_EDA.ipynb) - contains a comprehensive analysis of features employing data wrangling up to multivariate analysis to develop insights with the collected data.
+* [Content-Based Recommender Model](https://nbviewer.org/github/cpmalenab/bgg-recommendation-using-aws/blob/master/notebooks/BGG%20Recommender%20System.ipynb) - the notebook covers the step-by-step process involved in finding game recommendations using IDF of mechanics and categories.
 
 ## Dashboard
 
